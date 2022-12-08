@@ -1,0 +1,19 @@
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+}
+
+.image {
+  height:550px;
+  object-fit:cover;
+  object-position:50% 50%;
+  border-radius: 10px;
+}
+
+.action {
+  color: var(--mdc-text-button-label-text-color) !important;
+}

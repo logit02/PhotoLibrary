@@ -1,0 +1,9 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+  --accent-color: #3f51b5;
+  --base-color:  #e5f7ff;
+}
+.mat-mdc-button {color: var(--base-color) !important};
+

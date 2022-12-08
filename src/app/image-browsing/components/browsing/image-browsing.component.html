@@ -1,0 +1,9 @@
+<div class="item-list">
+  <app-browsing-item
+    *ngFor="let image of imagesList.value"
+    [item]="image"
+    (imageSavingEvent)="addImageToFavorites($event)"
+  ></app-browsing-item>
+</div>
+<span class="spinner"><mat-spinner *ngIf="loading | async"></mat-spinner></span>
+

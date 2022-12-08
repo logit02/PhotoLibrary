@@ -1,0 +1,8 @@
+<div class="item-list">
+  <app-browsing-item
+    *ngFor="let image of imagesList, index as i"
+    [item]="image.img"
+    [itemId]="image.id"
+    [allowRouting]="true"
+  ></app-browsing-item>
+</div>

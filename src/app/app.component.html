@@ -1,0 +1,9 @@
+<div class="navigation">
+  <button
+    mat-button
+    [routerLink]="ROUTE_NAMES.photos"
+    [routerLinkActiveOptions]= "{exact: true}"
+    routerLinkActive="active">{{'photos' | translateFromJson }}</button>
+  <button mat-button [routerLink]="ROUTE_NAMES.favorites" routerLinkActive="active">{{'favorites'  | translateFromJson}}</button>
+</div>
+<router-outlet></router-outlet>

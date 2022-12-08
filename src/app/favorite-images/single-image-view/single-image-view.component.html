@@ -1,0 +1,9 @@
+<div class="view">
+  <img class="image" src="{{currentImage.value}}">
+  <button
+    (click)="removeFromFavorites()"
+    mat-button
+    class="action"
+    color="primary">
+    {{'remove_from_favorites' | translateFromJson }}</button>
+</div>
